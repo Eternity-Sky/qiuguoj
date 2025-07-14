@@ -17,7 +17,7 @@ qiugu/
 
 ## 数据库连接
 ```
-mysql://avnadmin:AVNS_CEEdM-Y3_9hUMruXVF0@mysql-393a17f4-qiugu.e.aivencloud.com:21239/defaultdb?ssl-mode=REQUIRED
+数据库连接：mysql://<user>:<password>@<host>:<port>/<db>?ssl-mode=REQUIRED
 ```
 
 ## 快速开始

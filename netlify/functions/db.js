@@ -2,11 +2,11 @@
 const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
-  host: 'mysql-393a17f4-qiugu.e.aivencloud.com',
-  port: 21239,
-  user: 'avnadmin',
-  password: 'AVNS_CEEdM-Y3_9hUMruXVF0',
-  database: 'defaultdb',
+  host: process.env.MYSQL_HOST,
+  port: process.env.MYSQL_PORT,
+  user: process.env.MYSQL_USER,
+  password: process.env.MYSQL_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
   ssl: { rejectUnauthorized: true }
 });
 

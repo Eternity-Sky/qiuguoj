@@ -2,7 +2,7 @@
   command = "cd frontend && npm install && npm run build"
   publish = "frontend/build"
   functions = "netlify/functions"
-
+ 
 # 可选：设置环境变量
 #[[redirects]]
 #  from = "/api/*"
